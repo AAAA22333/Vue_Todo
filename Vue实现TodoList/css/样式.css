@@ -1,0 +1,110 @@
+body{
+    background-image: url("../img/蓝天.jpg");
+    background-size: 100%;
+}
+.outer{
+    margin:20px auto;
+    width: 700px;
+}
+.top{
+    position: relative;
+    overflow:hidden;
+    height: 60px;
+    background-image: linear-gradient(#0093E9,#80D0C7,#8EC5FC);
+}
+.top .left{
+    line-height:25px;
+    font-size: 30px;
+    float:left;
+    font-family:initial;
+}
+.top .right{
+    display:block;
+    margin-top: 2px;
+    float:right;
+}
+.top .right input{
+    display:inline-block;
+    line-height:25px;
+    border-radius:5px;
+    box-shadow:0 1px 0 rgba(0,0,0,0,0.2);
+}
+.list .todo,.done{
+    margin-top:20px;
+}
+.list .todo,.done h2{
+    display:block;
+    font-size:25px;
+    font-weight: bold;
+    font-family:fantasy;
+}
+.list .todo span{
+    font-size:20px;
+    display:inline-block;
+    margin-left:5px;
+    font-family: fantasy;
+}
+
+.list .done span{
+    font-size:20px;
+    display:inline-block;
+    margin-left:5px;
+    font-family:fantasy;
+}
+
+.list .todo li{
+    position: relative;
+    display:block;
+    margin-top:20px;
+    height: 30px;
+    width: 600px;
+    padding:5px;
+    background-color: rgba(135, 206, 235, 0.2);
+    box-shadow: 0 1px 20x rgba(222, 118, 229, 0.2);
+    border-left: 5px solid;
+    border: 2px solid rgb(135, 199, 248);
+    border-radius: 5px;
+
+}
+.list .done li{
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    height: 30px;
+    width: 600px;
+    padding: 5px;
+    background-color: rgba(87, 124, 231, 0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+    border-left: 5px solid;
+    border: 2px solid rgb(131, 206, 210);
+    border-radius: 5px;
+}
+.list .todo button{
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    text-align:cneter;
+    position: absolute;
+    display:inline-block;
+    margin-left:500px;
+    margin-top:10px;
+    border-radius:2px;
+    background-color: rgb(12, 179, 221);
+    color:white;
+    border:1px solid black;
+}
+
+.list .done button{
+    width: 20px;
+    height: 15px;
+    line-height: 15px;
+    text-align:cneter;
+    position: absolute;
+    display:inline-block;
+    margin-left:500px;
+    margin-top:10px;
+    border-radius:2px;
+    background-color: rgb(12, 179, 221);
+    color:white;
+    border:1px solid black;
+}
